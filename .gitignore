@@ -56,3 +56,4 @@ project.assets.json
 ## OS metadata
 .DS_Store
 Thumbs.db
+server/PersonalAI.API/appsettings.Development.json
