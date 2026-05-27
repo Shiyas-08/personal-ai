@@ -1,0 +1,58 @@
+## User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa]rm/
+[Aa]rm64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+## Visual Studio 2015/2017/2019/2022 cache directory
+.vs/
+# Generated file: project.lock.json
+project.lock.json
+# Generated file: all project.assets.json files
+project.assets.json
+
+## Rider
+.idea/
+*.sln.iml
+
+## VS Code
+.vscode/
+
+## Visual Studio Linker Old Files
+*.lksh
+*.lksp
+
+## Tools
+*.target
+*.db
+*.bak
+*.tmp
+*.temp
+
+## Publishing outputs
+*.publish.xml
+*.pubxml
+*.pubxml.user
+
+## Diagnostic logs
+*.log
+
+## OS metadata
+.DS_Store
+Thumbs.db

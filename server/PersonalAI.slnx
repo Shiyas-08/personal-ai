@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="PersonalAI.API/PersonalAI.API.csproj" Id="728622fb-331d-4e21-b71b-b9ba3bb9a28e" />
+  <Project Path="PersonalAI.Application/PersonalAI.Application.csproj" Id="02c83647-ee1d-4778-9e65-91ef022be0bb" />
+  <Project Path="PersonalAI.Domain/PersonalAI.Domain.csproj" Id="6f997395-0010-4af9-ba01-fbba6d106ef2" />
+  <Project Path="PersonalAI.Infrastructure/PersonalAI.Infrastructure.csproj" Id="fcee0606-ba7f-4342-b32c-73ea411dcefa" />
+</Solution>

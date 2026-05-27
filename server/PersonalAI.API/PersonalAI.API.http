@@ -1,0 +1,6 @@
+@PersonalAI.API_HostAddress = http://localhost:5141
+
+GET {{PersonalAI.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
