@@ -1,7 +1,8 @@
 using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
 using FluentValidation;
-using AutoMapper;
+using MediatR;
+using PersonalAI.Application.Common.Behaviors;
 
 namespace PersonalAI.Application;
 
@@ -19,6 +20,9 @@ public static class DependencyInjection
 
         // Register FluentValidation
         services.AddValidatorsFromAssembly(assembly);
+
+        // Register validation pipeline behavior
+        services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
 
         return services;
     }
